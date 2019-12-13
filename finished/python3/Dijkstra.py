@@ -8,7 +8,7 @@ from queue import PriorityQueue
 def Dijkstra(graph, start):
     distance = [None]*len(graph)
     queue = PriorityQueue()
-    queue.put( (0, start) )
+    queue.put( (0, start) ) # tuple must be in this order for sorting purposes
     while not queue.empty():
         pathCost, u = queue.get()
         if distance[u] is None:
