@@ -1,4 +1,3 @@
-
 # note this algorithm is used when there is negative edges present in the graph
 
 # graph: a list of lists of tuples [ [ (edgeCost, w), ...], ...]
